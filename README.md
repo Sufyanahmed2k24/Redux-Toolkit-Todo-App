@@ -1,16 +1,101 @@
-# React + Vite
+Redux Toolkit Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and interactive Todo Application built with React, Redux Toolkit, and Tailwind CSS. This project helps users manage their daily tasks with a clean interface and centralized state management.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Add Todos – Create new tasks.
 
-## React Compiler
+Edit Todos – Update existing task descriptions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Delete Todos – Remove tasks from the list.
 
-## Expanding the ESLint configuration
+Mark as Complete – Mark tasks as completed using checkboxes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Completion Indicator – Completed tasks display a line-through effect.
+
+Responsive Design – Works across desktop, tablet, and mobile devices.
+
+Redux State Management – Manage application state using Redux Toolkit.
+
+🛠️ Technologies Used
+
+React.js
+
+Redux Toolkit
+
+React Redux
+
+JavaScript (ES6+)
+
+Tailwind CSS
+
+Vite
+
+📂 Project Structure
+Redux-Toolkit-Todo-App/
+│
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Todo.jsx
+│   │   ├── TodoForm.jsx
+│   │   └── TodoHeading.jsx
+│   │
+│   ├── features/
+│   │   └── todoSLice.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── store.js
+│   └── index.css
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
+
+⚙️ Installation & Setup
+
+Clone the repository:
+
+git clone (https://github.com/Sufyanahmed2k24/Redux-Toolkit-Todo-App)
+
+Navigate to the project folder:
+
+cd Redux-Toolkit-Todo-App
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+Open the local URL shown in your terminal.
+
+📚 What I Learned
+
+How to manage global state using Redux Toolkit.
+
+How to create and configure Redux slices.
+
+How to use useSelector and useDispatch.
+
+How to implement CRUD operations.
+
+How to manage component state using React useState.
+
+How to build responsive interfaces using Tailwind CSS.
+
+👨‍💻 Author
+
+Sufyan Ahmed
+
+Frontend Developer | React.js Learner
+
+GitHub: Sufyanahmed2k24
+
+⭐ If you find this project useful, consider giving it a star!
